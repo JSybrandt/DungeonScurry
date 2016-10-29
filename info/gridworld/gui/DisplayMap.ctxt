@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=cl
+comment0.target=Display\ createDisplay(java.lang.Class)
+comment0.text=\n\ Associates\ a\ display\ object\ with\ a\ grid\ occupant\ class.\ \n\ @param\ the\ occupant\ class\n\ @return\ the\ ImageDisplay\ or\ (classname)Display\ object\ to\ display\ it,\ \n\ or\ null\ if\ none\ was\ found\n
+comment1.params=cl
+comment1.target=Display\ findDisplayFor(java.lang.Class)
+comment1.text=\n\ Finds\ a\ display\ class\ that\ knows\ how\ to\ display\ the\ given\ object.\n\ @param\ obj\ the\ object\ to\ display\n
+comment2.params=cl\ w\ h
+comment2.target=javax.swing.Icon\ getIcon(java.lang.Class,\ int,\ int)
+comment2.text=\n\ Gets\ an\ icon\ to\ display\ a\ class\ in\ a\ menu\n\ @param\ cl\ the\ class\n\ @param\ w\ the\ icon\ width\n\ @param\ h\ the\ icon\ height\n\ @return\ the\ icon\n
+numComments=3

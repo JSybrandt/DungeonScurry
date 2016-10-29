@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=loc
+comment0.target=java.util.ArrayList\ getNeighbors(Location)
+comment1.params=loc
+comment1.target=java.util.ArrayList\ getValidAdjacentLocations(Location)
+comment2.params=loc
+comment2.target=java.util.ArrayList\ getEmptyAdjacentLocations(Location)
+comment3.params=loc
+comment3.target=java.util.ArrayList\ getOccupiedAdjacentLocations(Location)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Creates\ a\ string\ that\ describes\ this\ grid.\n\ @return\ a\ string\ with\ descriptions\ of\ all\ objects\ in\ this\ grid\ (not\n\ necessarily\ in\ any\ particular\ order),\ in\ the\ format\ {loc\=obj,\ loc\=obj,\n\ ...}\n
+numComments=5

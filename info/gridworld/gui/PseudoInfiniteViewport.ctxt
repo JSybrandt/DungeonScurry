@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=parent
+comment0.target=PseudoInfiniteViewport(javax.swing.JScrollPane)
+comment0.text=\n\ Construct\ a\ new\ PseudoInfiniteViewport\ object\ for\ the\ given\ scrollpane.\n\ @param\ parent\ the\ JScrollPane\ for\ which\ this\ will\ be\ the\ viewport\n
+comment1.params=pt
+comment1.target=void\ setViewPosition(java.awt.Point)
+comment1.text=\n\ Sets\ the\ view\ position\ (upper\ left)\ to\ a\ new\ point.\ Overridden\ from\n\ JViewport\ to\ do\ a\ pan,\ instead\ of\ scroll,\ on\ an\ unbounded\ view.\n\ @param\ pt\ the\ Point\ to\ become\ the\ upper\ left\n
+comment2.params=
+comment2.target=java.awt.Point\ getViewPosition()
+comment2.text=\n\ Returns\ current\ view\ position\ (upper\ left).\ Overridden\ from\ JViewport\ to\n\ use\ pan\ center\ point\ for\ unbounded\ view.\n
+comment3.params=
+comment3.target=java.awt.Dimension\ getViewSize()
+comment3.text=\n\ Returns\ current\ view\ size.\ Overridden\ from\ JViewport\ to\ use\ preferred\n\ virtual\ size\ for\ unbounded\ view.\n
+comment4.params=
+comment4.target=PseudoInfiniteViewport.Pannable\ getPannableView()
+comment5.params=
+comment5.target=boolean\ viewIsUnbounded()
+comment6.params=
+comment6.target=java.awt.Point\ getPanCenterPoint()
+numComments=7

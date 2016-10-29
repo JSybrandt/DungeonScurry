@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=UnboundedGrid()
+comment0.text=\n\ Constructs\ an\ empty\ unbounded\ grid.\n
+comment1.params=
+comment1.target=int\ getNumRows()
+comment2.params=
+comment2.target=int\ getNumCols()
+comment3.params=loc
+comment3.target=boolean\ isValid(Location)
+comment4.params=
+comment4.target=java.util.ArrayList\ getOccupiedLocations()
+comment5.params=loc
+comment5.target=java.lang.Object\ get(Location)
+comment6.params=loc\ obj
+comment6.target=java.lang.Object\ put(Location,\ java.lang.Object)
+comment7.params=loc
+comment7.target=java.lang.Object\ remove(Location)
+numComments=8

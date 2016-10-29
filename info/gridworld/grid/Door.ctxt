@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=i\ b
+comment0.target=Door(int,\ info.gridworld.actor.Player)
+comment1.params=
+comment1.target=void\ stepedOn()
+numComments=2

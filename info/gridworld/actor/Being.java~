@@ -1,0 +1,141 @@
+package info.gridworld.actor;
+
+public class Being extends Critter
+{
+protected int health=15;
+protected int strength = 1, dexterity = 1, intellect = 1;
+protected String name, race, tagline;
+
+protected Weapon equippedWeapon = null;
+protected Magic equippedSpell = null;
+protected Armor equippedArmor = null;
+
+
+public Being(String name)
+{
+this.name=name;
+}
+
+public Being(String name, String race)
+{
+this.name=name;
+this.race=race;
+}
+
+public Being(String name, String race, int s, int d, int i)
+{
+this.name=name;
+this.race=race;
+strength = s;
+dexterity = d;
+intellect = i;
+}
+
+
+public void boostStr()//will level up strength by 1.
+{
+strength++;
+}
+public void changeStr(int b)//will level up strength by int, this can also decrement strength.
+{
+strength += b;
+if (strength < 1)
+	strength = 1;
+}
+public void boostDex()//will level up dex by 1.
+{
+dexterity++;
+}
+public void changeDex(int b)//will level up dex by int, this can also decrement strength.
+{
+dexterity += b;
+if (dexterity < 1)
+	dexterity = 1;
+}
+public void boostInt()//will level up int by 1.
+{
+intellect++;
+}
+public void changeInt(int b)//will level up dex by int, this can also decrement strength.
+{
+intellect += b;
+if (intellect < 1)
+	intellect = 1;
+}
+
+
+//for rolls we are going to assume stats do not go below 0
+public int rollStr()
+{
+return ((int)(Math.random()*strength)+1);
+}
+
+
+public int rollDex()
+{
+return ((int)(Math.random()*dexterity)+1);
+}
+
+
+public int rollInt()
+{
+return ((int)(Math.random()*intellect)+1);
+}
+
+
+public Weapon getWeapon()
+{
+return equippedWeapon;		
+}
+
+public Magic getSpell()
+{
+return equippedSpell;
+}
+
+
+public Armor getArmor()
+{
+return equippedArmor;		
+}
+
+
+
+
+public void fight(Being enemy)
+{
+if (this.rollStr()>enemy.rollDex())
+	this.swingAt(enemy);//will deal damage if hit
+}
+
+
+
+public void swingAt(Being enemy)
+{
+int myDamage=0;
+int hisDefence=0;
+if (this.getWeapon()== null)
+	myDamage = (int)(Math.random()*4+1);//this is swinging with fists
+else myDamage = this.getWeapon().swing();
+
+if (enemy.getArmor()!= null)
+	hisDefence = enemy.getArmor().block();
+	
+enemy.dealDamage(myDamage-hisDefence);
+}
+
+
+
+public void dealDamage(int pain)
+{
+health -= pain;
+if (health<=0)
+this.die();
+}
+
+
+public void die()
+{
+}
+
+}

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ColorEditor()
+comment1.params=
+comment1.target=java.lang.Object\ getValue()
+comment2.params=
+comment2.target=boolean\ supportsCustomEditor()
+comment3.params=
+comment3.target=java.awt.Component\ getCustomEditor()
+numComments=4

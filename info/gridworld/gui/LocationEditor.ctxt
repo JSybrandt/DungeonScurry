@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LocationEditor()
+comment1.params=
+comment1.target=java.lang.Object\ getValue()
+comment2.params=newValue
+comment2.target=void\ setValue(java.lang.Object)
+comment3.params=
+comment3.target=boolean\ supportsCustomEditor()
+comment4.params=
+comment4.target=java.awt.Component\ getCustomEditor()
+numComments=5

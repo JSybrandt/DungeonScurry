@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RoomIndex()
+comment1.params=
+comment1.target=Room\ getRandomRoom()
+comment2.params=a
+comment2.target=void\ addRoomToList(Room)
+comment3.params=
+comment3.target=int\ getNumberOfRooms()
+numComments=4

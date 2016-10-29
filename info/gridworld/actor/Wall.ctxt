@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Wall()
+comment0.text=\n\ Constructs\ a\ black\ rock.\n
+comment1.params=rockColor
+comment1.target=Wall(java.awt.Color)
+comment1.text=\n\ Constructs\ a\ rock\ of\ a\ given\ color.\n\ @param\ rockColor\ the\ color\ of\ this\ rock\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Overrides\ the\ <code>act</code>\ method\ in\ the\ <code>Actor</code>\ class\n\ to\ do\ nothing.\n
+numComments=3

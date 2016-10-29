@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=name\ worth
+comment0.target=Item(java.lang.String,\ int)
+comment1.params=
+comment1.target=int\ getWorth()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ stepedOn()
+numComments=5

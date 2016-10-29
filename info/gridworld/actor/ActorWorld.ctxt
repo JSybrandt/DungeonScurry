@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ActorWorld()
+comment0.text=\n\ Constructs\ an\ actor\ world\ with\ a\ default\ grid.\n
+comment1.params=grid
+comment1.target=ActorWorld(info.gridworld.grid.Grid)
+comment1.text=\n\ Constructs\ an\ actor\ world\ with\ a\ given\ grid.\n\ @param\ grid\ the\ grid\ for\ this\ world.\n
+comment2.params=
+comment2.target=void\ show()
+comment3.params=
+comment3.target=void\ step()
+comment4.params=loc\ occupant
+comment4.target=void\ add(info.gridworld.grid.Location,\ Actor)
+comment4.text=\n\ Adds\ an\ actor\ to\ this\ world\ at\ a\ given\ location.\n\ @param\ loc\ the\ location\ at\ which\ to\ add\ the\ actor\n\ @param\ occupant\ the\ actor\ to\ add\n
+comment5.params=occupant
+comment5.target=void\ add(Actor)
+comment5.text=\n\ Adds\ an\ occupant\ at\ a\ random\ empty\ location.\n\ @param\ occupant\ the\ occupant\ to\ add\n
+comment6.params=loc
+comment6.target=Actor\ remove(info.gridworld.grid.Location)
+comment6.text=\n\ Removes\ an\ actor\ from\ this\ world.\n\ @param\ loc\ the\ location\ from\ which\ to\ remove\ an\ actor\n\ @return\ the\ removed\ actor,\ or\ null\ if\ there\ was\ no\ actor\ at\ the\ given\n\ location.\n
+numComments=7

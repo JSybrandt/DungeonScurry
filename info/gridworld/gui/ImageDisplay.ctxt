@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=cl
+comment0.target=ImageDisplay(java.lang.Class)
+comment0.text=\n\ Constructs\ an\ object\ that\ knows\ how\ to\ display\ an\ image.\ Looks\ for\ the\n\ named\ file\ first\ in\ the\ jar\ file,\ then\ in\ the\ current\ directory.\n\ @param\ imageFilename\ name\ of\ file\ containing\ image\n
+comment1.params=obj\ comp\ g2
+comment1.target=void\ draw(java.lang.Object,\ java.awt.Component,\ java.awt.Graphics2D)
+comment1.text=\n\ Draws\ a\ unit-length\ object\ facing\ North.\ This\ implementation\ draws\ an\n\ object\ by\ tinting,\ scaling,\ and\ rotating\ the\ image\ in\ the\ image\ file.\n\ @param\ obj\ object\ we\ want\ to\ draw\n\ @param\ comp\ the\ component\ we're\ drawing\ on\n\ @param\ g2\ drawing\ surface\n
+numComments=2

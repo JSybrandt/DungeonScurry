@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MonsterSpawner()
+comment1.params=
+comment1.target=Monster\ getRandomMonster()
+comment2.params=a
+comment2.target=void\ addMonsterToList(Monster)
+comment3.params=
+comment3.target=int\ getNumberOfItems()
+numComments=4

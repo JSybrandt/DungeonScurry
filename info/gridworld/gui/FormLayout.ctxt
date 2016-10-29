@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=parent
+comment0.target=java.awt.Dimension\ preferredLayoutSize(java.awt.Container)
+comment1.params=parent
+comment1.target=java.awt.Dimension\ minimumLayoutSize(java.awt.Container)
+comment2.params=parent
+comment2.target=void\ layoutContainer(java.awt.Container)
+comment3.params=name\ comp
+comment3.target=void\ addLayoutComponent(java.lang.String,\ java.awt.Component)
+comment4.params=comp
+comment4.target=void\ removeLayoutComponent(java.awt.Component)
+numComments=5

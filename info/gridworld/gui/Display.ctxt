@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=obj\ c\ g2\ rect
+comment0.target=void\ draw(java.lang.Object,\ java.awt.Component,\ java.awt.Graphics2D,\ java.awt.Rectangle)
+comment0.text=\n\ Method\ invoked\ to\ draw\ an\ object.\n\ @param\ obj\ object\ we\ want\ to\ draw\n\ @param\ comp\ component\ on\ which\ to\ draw\n\ @param\ g2\ drawing\ surface\n\ @param\ rect\ rectangle\ in\ which\ to\ draw\n
+numComments=1

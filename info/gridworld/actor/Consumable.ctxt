@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n\ w
+comment0.target=Consumable(java.lang.String,\ int)
+comment1.params=
+comment1.target=void\ stepedOn()
+comment2.params=
+comment2.target=void\ consume()
+numComments=3

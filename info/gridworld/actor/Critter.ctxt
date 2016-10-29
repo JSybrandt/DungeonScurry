@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ A\ critter\ acts\ by\ getting\ a\ list\ of\ other\ actors,\ processing\ that\ list,\n\ getting\ locations\ to\ move\ to,\ selecting\ one\ of\ them,\ and\ moving\ to\ the\n\ selected\ location.\n
+comment1.params=
+comment1.target=java.util.ArrayList\ getActors()
+comment1.text=\n\ Gets\ the\ actors\ for\ processing.\ Implemented\ to\ return\ the\ actors\ that\n\ occupy\ neighboring\ grid\ locations.\ Override\ this\ method\ in\ subclasses\ to\n\ look\ elsewhere\ for\ actors\ to\ process.<br\ />\n\ Postcondition\:\ The\ state\ of\ all\ actors\ is\ unchanged.\n\ @return\ a\ list\ of\ actors\ that\ this\ critter\ wishes\ to\ process.\n
+comment2.params=actors
+comment2.target=void\ processActors(java.util.ArrayList)
+comment2.text=\n\ Processes\ the\ elements\ of\ <code>actors</code>.\ New\ actors\ may\ be\ added\n\ to\ empty\ locations.\ Implemented\ to\ "eat"\ (i.e.\ remove)\ selected\ actors\n\ that\ are\ not\ rocks\ or\ critters.\ Override\ this\ method\ in\ subclasses\ to\n\ process\ actors\ in\ a\ different\ way.\ <br\ />\n\ Postcondition\:\ (1)\ The\ state\ of\ all\ actors\ in\ the\ grid\ other\ than\ this\n\ critter\ and\ the\ elements\ of\ <code>actors</code>\ is\ unchanged.\ (2)\ The\n\ location\ of\ this\ critter\ is\ unchanged.\n\ @param\ actors\ the\ actors\ to\ be\ processed\n
+comment3.params=
+comment3.target=java.util.ArrayList\ getMoveLocations()
+comment3.text=\n\ Gets\ a\ list\ of\ possible\ locations\ for\ the\ next\ move.\ These\ locations\ must\n\ be\ valid\ in\ the\ grid\ of\ this\ critter.\ Implemented\ to\ return\ the\ empty\n\ neighboring\ locations.\ Override\ this\ method\ in\ subclasses\ to\ look\n\ elsewhere\ for\ move\ locations.<br\ />\n\ Postcondition\:\ The\ state\ of\ all\ actors\ is\ unchanged.\n\ @return\ a\ list\ of\ possible\ locations\ for\ the\ next\ move\n
+comment4.params=locs
+comment4.target=info.gridworld.grid.Location\ selectMoveLocation(java.util.ArrayList)
+comment4.text=\n\ Selects\ the\ location\ for\ the\ next\ move.\ Implemented\ to\ randomly\ pick\ one\n\ of\ the\ possible\ locations,\ or\ to\ return\ the\ current\ location\ if\n\ <code>locs</code>\ has\ size\ 0.\ Override\ this\ method\ in\ subclasses\ that\n\ have\ another\ mechanism\ for\ selecting\ the\ next\ move\ location.\ <br\ />\n\ Postcondition\:\ (1)\ The\ returned\ location\ is\ an\ element\ of\n\ <code>locs</code>,\ this\ critter's\ current\ location,\ or\n\ <code>null</code>.\ (2)\ The\ state\ of\ all\ actors\ is\ unchanged.\n\ @param\ locs\ the\ possible\ locations\ for\ the\ next\ move\n\ @return\ the\ location\ that\ was\ selected\ for\ the\ next\ move.\n
+comment5.params=loc
+comment5.target=void\ makeMove(info.gridworld.grid.Location)
+comment5.text=\n\ Moves\ this\ critter\ to\ the\ given\ location\ <code>loc</code>,\ or\ removes\n\ this\ critter\ from\ its\ grid\ if\ <code>loc</code>\ is\ <code>null</code>.\n\ An\ actor\ may\ be\ added\ to\ the\ old\ location.\ If\ there\ is\ a\ different\ actor\n\ at\ location\ <code>loc</code>,\ that\ actor\ is\ removed\ from\ the\ grid.\n\ Override\ this\ method\ in\ subclasses\ that\ want\ to\ carry\ out\ other\ actions\n\ (for\ example,\ turning\ this\ critter\ or\ adding\ an\ occupant\ in\ its\ previous\n\ location).\ <br\ />\n\ Postcondition\:\ (1)\ <code>getLocation()\ \=\=\ loc</code>.\ (2)\ The\ state\ of\n\ all\ actors\ other\ than\ those\ at\ the\ old\ and\ new\ locations\ is\ unchanged.\n\ @param\ loc\ the\ location\ to\ move\ to\n
+numComments=6

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Chest()
+comment1.params=b
+comment1.target=Chest(Item)
+comment2.params=
+comment2.target=void\ stepedOn()
+numComments=3
